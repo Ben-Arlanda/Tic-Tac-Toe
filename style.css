@@ -118,7 +118,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     margin-bottom: 30px;
-    color: #88be19;
+    color: #39FF14;
     font-family: "Retro Gaming";
 }
 
@@ -151,7 +151,7 @@ h2 {
 
 h3 {
     border: 2px solid #88be19;
-    color: #88be19;
+    color: #39FF14;
     padding: 13px;
     display: flex;
     /* justify-content: space-between; */
@@ -177,9 +177,13 @@ h3 {
     cursor: pointer;
 }
 
+.reset:hover {
+    transform: scale(1.2);
+}
+
 #X-score,
 #O-score {
-    color: #88be19;
+    color: #39FF14;
     font-family: "Retro Gaming";
     margin-left: 4rem;
 }

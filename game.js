@@ -1,4 +1,4 @@
-// X will go first and then click the sqaure with X then O will click. If X or O get three in a row they win. There will be multiple conditions in the 9 sqaures. When they win they can press new game which will reset the game. 
+// Cells are empty then X will go first and then click the sqaure with X, then O will click. If X or O get three in a row they win. There will be multiple conditions in the 9 sqaures. When they win they can press new game which will reset the game. 
 
 
 // variable to store array of players 
@@ -85,10 +85,10 @@ function checkWin() {
             if (currentPlayer === players[0]) {
                 xScore++;
                 // displays the score getting DOM id element 
-                document.getElementById("X-score").textContent = `X: ${xScore}`;
+                document.getElementById("X-score").textContent = `[X] ${xScore}`;
             } else {
                 oScore++;
-                document.getElementById("O-score").textContent = `O: ${oScore}`;
+                document.getElementById("O-score").textContent = `[O] ${oScore}`;
             }
 
             return true;
