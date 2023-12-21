@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://db.onlinewebfonts.com/c/4c19fc875e7ba1e6831129de3ab5ac0b?family=Retro+Gaming" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 </head>
 <body>
-    <h1>Tic-Tac-Toe</h1>
+    <h1 class="animate__animated animate__bounce">Tic-Tac-Toe</h1>
+    <header>
+    <h3>Scoreboard</h3>
+    <div class="player-score" id="X-score">X: 0</div>
+    <div class="player-score" id="O-score">O: 0</div>
+    </header>
+    <h2 id="results"></h2>
     <div class="board">
         <div class="cell" id="cell-0"></div>
         <div class="cell" id="cell-1"></div>

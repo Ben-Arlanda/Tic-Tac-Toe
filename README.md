@@ -1,7 +1,36 @@
-# This is my tic-tac-toe game built with HTML, CSS and JavaScript.
+# Tic-Tac-Toe
 
-1. The game will switch between 2 players which is 0 & X
-2. It will display which player wins after getting three O or X in a row
-3. It will dispaly when both players draw
-4. It will have a reset button to start a new game
-5. It keep track of how many games have been played
+# About
+
+- A simple tic-tac-toe game with two players X and O, the aim is getting three squares in a row.
+
+![screenshot](/images/Screenshot%202023-12-21%20at%205.29.19%20pm.png)
+
+# Planning
+
+![screenshot](/images/wireframe.jpg)
+
+1. Declare variable for current player
+2. Variable for cell elements
+3. Set up event listener for each cell
+4. Declare variable for reset/new game btn
+5. Write function for if else condition in each sqaure
+6. Function for new game
+7. Function for Win and Draw
+
+# Tech
+
+- HTML, CSS and JavaScript
+
+# Bugs to fix
+
+- Error in winning combination
+
+# Lesson learnt
+
+- Getting code blocks correct for logic and moving function calls in right place
+
+# Future updates
+
+- Shows whos turn it is
+- Have option to play computer
