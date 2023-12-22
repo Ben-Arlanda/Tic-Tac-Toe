@@ -6,7 +6,7 @@
 
 - A simple tic-tac-toe game with two players X and O, the aim is getting three squares in a row.
 
-![screenshot](/images/Screenshot%202023-12-22%20at%2011.06.54%20am.png)
+![screenshot](/images/Screenshot%202023-12-22%20at%2012.36.35%20pm.png)
 
 # Planning
 
