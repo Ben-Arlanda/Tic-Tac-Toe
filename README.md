@@ -1,5 +1,7 @@
 # Tic-Tac-Toe
 
+# [Click here to play!] (https://ben-arlanda.github.io/Tic-Tac-Toe/)
+
 # About
 
 - A simple tic-tac-toe game with two players X and O, the aim is getting three squares in a row.
