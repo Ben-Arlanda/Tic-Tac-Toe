@@ -104,16 +104,19 @@ body {
 h1 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: yellow;
+    /* color: yellow; */
+    color: #FFF01F;
     font-family: "Retro Gaming";
     border: 2px solid #88be19;
     padding: 10px;
     border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
 }
 
-/* header {
+header {
     display: flex;
-} */
+    align-items: center;
+    justify-content: space-between;
+}
 
 h2 {
     font-size: 1.5em;
@@ -127,13 +130,14 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2px;
     margin-bottom: 5rem;
+    max-width: 100%;
 
 }
 
 .cell {
     width: 110px;
     height: 110px;
-    border: 1px solid yellow;
+    border: 1px solid #FFF01F;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -153,23 +157,21 @@ h3 {
     border: 2px solid #88be19;
     color: #39FF14;
     padding: 13px;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
     text-align: center;
     font-family: "Retro Gaming";
     font-size: 20px;
 }
 
 .player-score {
-    display: grid;
     padding: 5px;
+    padding-top: 28px;
     margin: 5px;
     font-family: "Retro Gaming";
+    color: #39FF14;
 }
 
 .reset {
-    margin-bottom: 6rem;
+    margin-bottom: 15rem;
     color: #f55b1d;
     font-family: "Retro Gaming";
     background-color: #000;
@@ -179,11 +181,4 @@ h3 {
 
 .reset:hover {
     transform: scale(1.2);
-}
-
-#X-score,
-#O-score {
-    color: #39FF14;
-    font-family: "Retro Gaming";
-    margin-left: 4rem;
 }

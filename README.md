@@ -4,11 +4,11 @@
 
 - A simple tic-tac-toe game with two players X and O, the aim is getting three squares in a row.
 
-![screenshot](/images/Screenshot%202023-12-21%20at%205.29.19%20pm.png)
+![screenshot](/images/Screenshot%202023-12-22%20at%2011.06.54%20am.png)
 
 # Planning
 
-![screenshot](/images/wireframe.jpg)
+![screenshot](/images/3EB10FCA-F928-4C3F-8BEA-B2A7421DC977.jpg)
 
 1. Declare variable for current player
 2. Variable for cell elements
