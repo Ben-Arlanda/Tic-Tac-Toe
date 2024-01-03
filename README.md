@@ -2,7 +2,7 @@
 
 - Hi and welcome to my Tic-Tac-Toe project.
 
-## :computer: [Click here to play to play the game!](https://ben-arlanda.github.io/Tic-Tac-Toe/)
+## :computer: [Click here](https://ben-arlanda.github.io/Tic-Tac-Toe/) to play the game!
 
 ## :page_facing_up: About
 
