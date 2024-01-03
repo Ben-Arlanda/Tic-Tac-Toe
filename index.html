@@ -13,9 +13,9 @@
 <body>
     <h1 class="animate__animated animate__bounce">Tic-Tac-Toe</h1>
     <header class="container">
-        <div class="player-score" id="X-score">[X] 0</div>
+        <div class="player-score" id="X-score">Player X: 0</div>
         <h3>Scoreboard</h3>
-        <div class="player-score" id="O-score">[O] 0</div>
+        <div class="player-score" id="O-score">Player O: 0</div>
     </header>
     <h2 id="results"></h2>
     <div class="board">
@@ -29,7 +29,10 @@
         <div class="cell" id="cell-7"></div>
         <div class="cell" id="cell-8"></div>
     </div>
+    <p class="player-turn"></p>
+<div class="button-container">
     <button class="reset">New Game</button>
+</div>
     <script src="game.js"></script>
 </body>
 

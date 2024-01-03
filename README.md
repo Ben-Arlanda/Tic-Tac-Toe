@@ -1,14 +1,16 @@
 # Tic-Tac-Toe
 
-# [Click here to play!] (https://ben-arlanda.github.io/Tic-Tac-Toe/)
+- Hi and welcome to my Tic-Tac-Toe project.
 
-# About
+## :computer: [Click here to play to play the game!](https://ben-arlanda.github.io/Tic-Tac-Toe/)
 
-- A simple tic-tac-toe game with two players X and O, the aim is getting three squares in a row.
+## :page_facing_up: About
+
+- The goal of the game is for players to position their marks so that they make a continuous line of three cells vertically, horizontally, or diagonally. An opponent can prevent a win by blocking the completion of the opponent's line. In our variant of the game, players placed objects on a board.
 
 ![screenshot](/images/Screenshot%202023-12-22%20at%2012.36.35%20pm.png)
 
-# Planning
+## :pencil2: Planning & Wireframe
 
 ![screenshot](/images/3EB10FCA-F928-4C3F-8BEA-B2A7421DC977.jpg)
 
@@ -20,19 +22,23 @@
 6. Function for new game
 7. Function for Win and Draw
 
-# Tech
+## :rocket: Cool tech
 
-- HTML, CSS and JavaScript
+- HTML, CSS and Vanilla JavaScript
+- CSS Animations
 
-# Bugs to fix
+## :scream: Bugs to fix
 
 - Error in winning combination
 
-# Lesson learnt
+## :sob: Lessons learnt
 
 - Getting code blocks correct for logic and moving function calls in right place
+- Try and take things step by step and not thinking ahead too much
+- Ask for help when stuck for a long time instead of being stubborn
 
-# Future updates
+## :white_check_mark: Future updates
 
-- Shows whos turn it is
+- Show whos turn it is
 - Have option to play computer
+- Highlight winning cells

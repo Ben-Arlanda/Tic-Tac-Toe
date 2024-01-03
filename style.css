@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,7 +18,6 @@ body {
 h1 {
     font-size: 2em;
     margin-bottom: 30px;
-    /* color: yellow; */
     color: #FFF01F;
     font-family: "Retro Gaming";
     border: 2px solid #88be19;
@@ -31,6 +36,7 @@ h2 {
     margin-bottom: 30px;
     color: #39FF14;
     font-family: "Retro Gaming";
+    padding-top: 1rem;
 }
 
 .board {
@@ -73,7 +79,7 @@ h3 {
 
 .player-score {
     padding: 5px;
-    padding-top: 20px;
+    /* padding-top: 1px; */
     margin: 5px;
     font-family: "Retro Gaming";
     color: #39FF14;
@@ -91,4 +97,10 @@ h3 {
 
 .reset:hover {
     transform: scale(1.2);
+}
+
+.player-turn {
+    color: #39FF14;
+    font-family: "Retro Gaming";
+    padding-bottom: 2rem;
 }
