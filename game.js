@@ -1,11 +1,11 @@
 // Cells are empty then X will go first and then click the sqaure with X, then O will click. If X or O get three in a row they win. There will be multiple conditions in the 9 sqaures. When they win they can press new game which will reset the game. 
 
-
+//== declare global variables 
 let currentPlayer = 'X'
 let xScore = 0;
 let oScore = 0;
 
-// store cell class into cellElements 
+//== caching dom element references
 const cellElements = document.querySelectorAll('.cell');
 const resetBtn = document.querySelector('.reset');
 const resultElem = document.querySelector('#results');
@@ -71,19 +71,10 @@ function checkWin() {
     // loops through each element in winning combinations 
     for (const winningMove of winningMoves) {
         const [a, b, c] = winningMove;
-    if (cellElements[a].textContent !== '' && cellElements[a].textContent === cellElements[b].textContent && cellElements[a].textContent === cellElements[c].textContent) 
-    { 
-        
-    // if (currentPlayer === 'X') {
-    // xScore++;
-    // xScoreElem.textContent = (`Player X: ${xScore}`);
-    //     } else {
-    //         oScore++;
-    //         oScoreElem.textContent = (`Player O: ${oScore}`);
-    //             }
-          return [a,b,c];
-        }
+    if (cellElements[a].textContent !== '' && cellElements[a].textContent === cellElements[b].textContent && cellElements[a].textContent === cellElements[c].textContent) {
          
+    return [a,b,c];
+        }   
     }
     return false;
 }
@@ -94,7 +85,7 @@ function resetGame() {
     for (const cellElem of cellElements) {
         //reset the cells to empty string 
         cellElem.textContent = '';
-        cellElem.style.backgroundColor = 'black'
+        cellElem.style.backgroundColor = ''
     
         // add event listener again after cell disabled 
         cellElem.addEventListener('click', handleClick);
@@ -112,15 +103,17 @@ function disableCell() {
     }
 }
 
+// highlight win cells 
 function highlightWinCells() {
     const winningCells = checkWin()
         if (winningCells) {
             for (const index of winningCells) {
-            cellElements[index].style.backgroundColor = 'orange'
+            cellElements[index].style.backgroundColor = 'rgba(52, 152, 219, 0.7'
         }
     }
 }
 
+// update score 
 function updateScore() {
        if (currentPlayer === 'X') {
         xScore++;

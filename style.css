@@ -11,12 +11,17 @@ body {
     justify-content: center;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background-image: url(./images/vecteezy_retro-gaming-fun-old-school-arcade-game-in-an-80s-neon_24062848.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 7rem;
+    max-width: 100%;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3.5em;
+    max-width: 100%;
     margin-bottom: 30px;
     color: #FFF01F;
     font-family: "Retro Gaming";
@@ -29,14 +34,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 h2 {
     font-size: 1.5em;
     margin-bottom: 30px;
-    color: #39FF14;
+    color: #FFF01F;
     font-family: "Retro Gaming";
     padding-top: 1rem;
+    text-align: center;
 }
 
 .board {
@@ -44,50 +51,52 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2px;
     margin-bottom: 2rem;
-    max-width: 100%;
 
 }
 
 .cell {
-    width: 110px;
-    height: 110px;
+    width: 145px;
+    height: 145px;
     border: 1px solid #FFF01F;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4.5rem;
+    font-size: 5rem;
     cursor: pointer;
     font-family: "Retro Gaming";
-    color: blue;
+    color: yellow;
+    border-radius: 10px;
 }
 
 .cell:hover {
-    background-color: #1a1b1c;
+    background-color: rgba(52, 152, 219, 0.7);
     opacity: 1.0;
 }
 
 h3 {
-    border: 2px solid #88be19;
-    color: #39FF14;
+    color: yellow;
+    background-color: rgba(52, 152, 219, 0.7);
     padding: 13px;
     text-align: center;
     font-family: "Retro Gaming";
     font-size: 20px;
     margin-bottom: 8px;
+    border-radius: 5px;
 }
 
 .player-score {
     padding: 5px;
-    /* padding-top: 1px; */
     margin: 5px;
     font-family: "Retro Gaming";
     color: #39FF14;
+    background-color: rgba(52, 152, 219, 0.7);
+    border-radius: 5px;
 }
 
 .reset {
     margin-bottom: 15rem;
-    color: #f55b1d;
+    color: #FFF01F;
     font-family: "Retro Gaming";
     background-color: #000;
     border-radius: 2rem;
@@ -100,7 +109,8 @@ h3 {
 }
 
 .player-turn {
-    color: #39FF14;
+    color: #FFF01F;
     font-family: "Retro Gaming";
     padding-bottom: 2rem;
+    text-align: center;
 }
