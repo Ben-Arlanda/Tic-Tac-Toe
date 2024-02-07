@@ -1,4 +1,4 @@
-// Cells are empty then X will go first and then click the sqaure with X, then O will click. If X or O get three in a row they win. There will be multiple conditions in the 9 sqaures. When they win they can press new game which will reset the game. 
+
 
 //== declare global variables 
 let currentPlayer = 'X'

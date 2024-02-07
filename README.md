@@ -1,22 +1,22 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe game built in Vanilla JavaScript
 
-- Hi and welcome to my Tic-Tac-Toe project.
+This is my first project with General assembly building a game from scratch using HTML, CSS, Vanilla JavaScript and DOM manipulation. 
 
 ## :computer: [Click here](https://ben-arlanda.github.io/Tic-Tac-Toe/) to play the game!
 
 ## :page_facing_up: About
 
-- The goal of the game is for players to position their marks so that they make a continuous line of three cells vertically, horizontally, or diagonally. An opponent can prevent a win by blocking the completion of the opponent's line. In our variant of the game, players placed objects on a board.
+The goal of the game is for players to position their marks so that they make a continuous line of three cells vertically, horizontally, or diagonally. An opponent can prevent a win by blocking the completion of the opponent's line. In our variant of the game, players placed objects on a board.
 
 ![screenshot](/images/Screenshot%202024-01-07%20at%205.18.03%20pm.png)
 
 ## :pencil2: Planning & Wireframe
 
-- I initially did a wireframe to get a visual idea of how i would mock up my HTML and how the intercece would look to the user.
+I initially did a wireframe to get a visual idea of how i would mock up my HTML and how the intercece would look to the user.
 
 ![screenshot](/images/3EB10FCA-F928-4C3F-8BEA-B2A7421DC977.jpg)
 
-- Below are a few JavaScript core requirements so I could plan how this would interact with my HTML and make the MVP work.
+Below are a few JavaScript core requirements so I could plan how this would interact with my HTML and make the MVP work.
 
 1. Declare variable for current player
 2. Variable for cell elements

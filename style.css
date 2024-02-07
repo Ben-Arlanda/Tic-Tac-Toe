@@ -53,7 +53,7 @@ h2 {
 .board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2px;
+    /* gap: 2px; */
     margin-bottom: 2rem;
 
 }
@@ -117,4 +117,27 @@ h3 {
     font-family: "Retro Gaming";
     padding-bottom: 2rem;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .board {
+        grid-template-columns: 100px 100px 100px;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    .cell {
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
 }
